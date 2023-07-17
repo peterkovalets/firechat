@@ -1,0 +1,37 @@
+{
+  "name": "firechat",
+  "version": "1.0.0",
+  "description": "Vanilla JS chat app with Firebase",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterkovalets/firechat.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Peter Kovalets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterkovalets/firechat/issues"
+  },
+  "homepage": "https://github.com/peterkovalets/firechat#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}
